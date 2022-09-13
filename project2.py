@@ -37,6 +37,7 @@ standardError = np.sqrt(np.diag(covar))
 seIncl = standardError[0]       #seIncl = +- 2' 21.920"
 seRA = standardError[1]         #seRA = +- 4' 37.558"
 
+#Plotting the celestial equator
 x = np.linspace(0, 360, 10000)
 y = 0 * x
 
