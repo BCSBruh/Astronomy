@@ -38,16 +38,25 @@ seIncl = standardError[0]       #seIncl = +- 2' 21.920"
 seRA = standardError[1]         #seRA = +- 4' 37.558"
 
 #Plotting the celestial equator
-x = np.linspace(0, 360, 10000)
+x = np.linspace(0, 360, 1000)
 y = 0 * x
+
+#Creating the lines to plot the function from the curve fit
+xGalaxy = np.linspace(0, 360, 1000)
+yGalaxy = theFunction(np.deg2rad(xGalaxy), np.deg2rad(inclination), np.deg2rad(rightAscension))
 
 #Plotting the data
 plt.axis([0, 360, -4, 3])       #Creates the axes of the plot. Y is in radians and X is in degrees
 plt.scatter(np.rad2deg(ra), np.tan(declination), label = 'GCVS4.2 Data')    #Plot the data in a scatter plot
 plt.plot(x, y, '--r', label='Celestial Equator')        #Plot the celestial equator
 
+#Plotting the curve with the parameters from the curve fit
+plt.plot(xGalaxy, yGalaxy, color='black', lw = 3, label='Galactic Equator')
+
 #Add labels and legend to plot
 plt.xlabel("Right Ascension (°)")
 plt.ylabel(r'$tan(\delta_e)$')
 plt.title("Classical Cepheid Stars on Galactic Plane")
 plt.legend(loc='upper right')
+
+plt.show()
