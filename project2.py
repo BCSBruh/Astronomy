@@ -13,7 +13,7 @@ def theFunction(x, i, asc):
     return np.tan(i) * np.sin(x - asc)  #Return the function
 
 
-#Initial parameter guess for inclination and declination
+#Initial parameter guess for inclination and right ascension
 guess = [62, 280]
 
 #Open the file and skip to the correct lines
@@ -47,6 +47,7 @@ yGalaxy = theFunction(np.deg2rad(xGalaxy), np.deg2rad(inclination), np.deg2rad(r
 
 #Plotting the data
 plt.axis([0, 360, -4, 3])       #Creates the axes of the plot. Y is in radians and X is in degrees
+plt.figure(figsize=(11, 6))
 plt.scatter(np.rad2deg(ra), np.tan(declination), label = 'GCVS4.2 Data')    #Plot the data in a scatter plot
 plt.plot(x, y, '--r', label='Celestial Equator')        #Plot the celestial equator
 
@@ -54,6 +55,7 @@ plt.plot(x, y, '--r', label='Celestial Equator')        #Plot the celestial equa
 plt.plot(xGalaxy, yGalaxy, color='black', lw = 3, label='Galactic Equator')
 
 #Add labels and legend to plot
+plt.margins(x=0)
 plt.xlabel("Right Ascension (°)")
 plt.ylabel(r'$tan(\delta_e)$')
 plt.title("Classical Cepheid Stars on Galactic Plane")
