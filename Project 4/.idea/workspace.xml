@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9447af-8517-45d5-b2dd-70d4f2b23a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 5024.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 5904.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 6229.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 6341.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/ASTR4330-Fall2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/ASTR4330-Fall2022.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project 4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project 4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Clusters.png" beforeDir="false" afterPath="$PROJECT_DIR$/All Clusters.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/hrCode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jerom/OneDrive/Desktop/School Stuff/Fall 2022/Observational Astronomy/Astronomy/Project 4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.imagePlotter">
+}]]></component>
+  <component name="RunManager" selected="Python.hrCode">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Project 4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +94,9 @@
       <module name="Project 4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -134,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.imagePlotter" />
         <item itemvalue="Python.hrCode" />
+        <item itemvalue="Python.imagePlotter" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +152,7 @@
       <workItem from="1666049639006" duration="1250000" />
       <workItem from="1666062017169" duration="3542000" />
       <workItem from="1666066594547" duration="5250000" />
+      <workItem from="1666509077864" duration="2124000" />
     </task>
     <servers />
   </component>
