@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9447af-8517-45d5-b2dd-70d4f2b23a6f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Project 4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project 4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Clusters.png" beforeDir="false" afterPath="$PROJECT_DIR$/All Clusters.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGC 5024 Graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/NGC 5024 Graph.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/hrCode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +150,7 @@
       <workItem from="1666049639006" duration="1250000" />
       <workItem from="1666062017169" duration="3542000" />
       <workItem from="1666066594547" duration="5250000" />
-      <workItem from="1666509077864" duration="2124000" />
+      <workItem from="1666509077864" duration="2592000" />
     </task>
     <servers />
   </component>
