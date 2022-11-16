@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd6d79b8-5aad-4038-84da-bd3fa52547dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project 4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 4/NGC 5024.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 4/NGC 5904.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 4/NGC 6229.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 4/NGC 6341.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 4/hrCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 4/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ASTR4330-Fall2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ASTR4330-Fall2022.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project 4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +141,7 @@
       <workItem from="1666049529380" duration="1351000" />
       <workItem from="1666061985626" duration="33000" />
       <workItem from="1666066587928" duration="9000" />
+      <workItem from="1666130736426" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the project2 source code and added some comments">
       <created>1663222134970</created>

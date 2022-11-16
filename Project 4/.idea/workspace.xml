@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9447af-8517-45d5-b2dd-70d4f2b23a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 5024.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 5904.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 6229.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGC 6341.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/ASTR4330-Fall2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/ASTR4330-Fall2022.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/hrCode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +42,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.imagePlotter">
+  <component name="RunManager" selected="Python.hrCode">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Project 4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +88,9 @@
       <module name="Project 4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -134,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.imagePlotter" />
         <item itemvalue="Python.hrCode" />
+        <item itemvalue="Python.imagePlotter" />
       </list>
     </recent_temporary>
   </component>
@@ -149,12 +145,26 @@
       <updated>1666049631185</updated>
       <workItem from="1666049639006" duration="1250000" />
       <workItem from="1666062017169" duration="3542000" />
-      <workItem from="1666066594547" duration="5250000" />
+      <workItem from="1666066594547" duration="5454000" />
+      <workItem from="1666130745509" duration="2319000" />
+      <workItem from="1666224770150" duration="3357000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished Project 4 Coding I think">
+      <created>1666072086730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666072086730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished Project 4 Coding I think" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Project 4 Coding I think" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
