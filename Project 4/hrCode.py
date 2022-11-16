@@ -5,10 +5,10 @@ Created by Jerome Larson
 import numpy as np
 import matplotlib.pyplot as plt
 
-ngc5024 = np.genfromtxt("NGC 5024.csv", delimiter=",", skip_header=1, usecols=(10, 11))
+ngc5024 = np.genfromtxt("NGC 5024 Alt.csv", delimiter=",", skip_header=1, usecols=(10, 11))
 ngc5904 = np.genfromtxt("NGC 5904.csv", delimiter=",", skip_header=1, usecols=(10, 11))
-ngc6229 = np.genfromtxt("NGC 6229.csv", delimiter=",", skip_header=1, usecols=(10, 11))
-ngc6341 = np.genfromtxt("NGC 6341.csv", delimiter=",", skip_header=1, usecols=(10, 11))
+ngc6229 = np.genfromtxt("NGC 6229 Alt.csv", delimiter=",", skip_header=1, usecols=(10, 11))
+ngc6341 = np.genfromtxt("NGC 6341 Alt.csv", delimiter=",", skip_header=1, usecols=(10, 11))
 
 #Plot 1
 g5024 = ngc5024[:, 0]
@@ -35,7 +35,7 @@ r6341 = ngc6341[:, 1]
 colIndex6341 = g6341 - r6341
 
 #Making Plots
-fig, ax = plt.subplots(2, 2, layout="constrained")
+fig, ax = plt.subplots(1,1, layout="constrained")
 
 #Plot 1
 ax[0, 0].scatter(colIndex5024, g5024, s=3, color='black')
@@ -88,5 +88,5 @@ ax[1, 1].set_ylabel("g [mag]")
 ax[1, 1].set_title("H-R Diagram of NGC 6341")
 ax[1, 1].legend(loc='upper right', fontsize=8)
 
-#plt.savefig("All Clusters.png", dpi=1000)
+plt.savefig("All Clusters.png", dpi=1000)
 plt.show()
