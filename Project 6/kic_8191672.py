@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import (MultipleLocator)
@@ -11,13 +5,13 @@ from lightkurve import search_targetpixelfile
 
 
 #---------------------------
-#----   My second star  ----
+#----   KIC 8191672  ----
 
 #-- Prepare plotting axes
 fig, axes = plt.subplots(3, 2, figsize=(12,9), constrained_layout=True)
 
 #-- Download target pixel file
-stardes = 'KIC 4282872'   # Kepler-818 b , quarter=8
+stardes = 'KIC 8191672'   # Kepler-818 b , quarter=8
 tpf = search_targetpixelfile(stardes, author='Kepler', quarter=8).download()
 
 #-- print some information from header
@@ -55,27 +49,29 @@ periodmax = pg.period_at_max_power  # find peak
 print('Best fit period: {:.5f}'.format(periodmax))
 
 #-------------------------------------------
-#--  Folded lightcurve 
+#--  Folded lightcurve
 #-------------------------------------------
 fold_lc = flat_lc.fold(period=periodmax)
 binned_lc = fold_lc.bin(time_bin_size=0.002)
 #-- Folded flux
+axes[2][0].axis([-8, 8, 0.99, 1.01])
 axes[2][0].tick_params(which='both', axis='both',       # ticks inside box
-                    direction='in', top=True, right=True) 
+                    direction='in', top=True, right=True)
 fold_lc.scatter(ax=axes[2][0], c='k')
+axes[2][0].legend(loc='upper right')
 
 #-- Eclipse close-up
-axes[2][1].axis([4.05, 4.45, 0.995, 1.003])
+axes[2][1].axis([1.25, 1.55, 0.995, 1.003])
 axes[2][1].xaxis.set_minor_locator(MultipleLocator(0.01))
 axes[2][1].tick_params(which='both', axis='both',       # ticks inside box
-                    direction='in', top=True, right=True) 
-axes[2][1].axhline(y=0.9974, color="blue", linestyle="--")  # vertical line
-axes[2][1].axvline(x=4.16, color="blue", linestyle="--")  # vertical line
-axes[2][1].axvline(x=4.29, color="blue", linestyle="--")  # vertical line
+                    direction='in', top=True, right=True)
+axes[2][1].axhline(y=0.9955, color="blue", linestyle="--")  # vertical line
+axes[2][1].axvline(x=1.33, color="blue", linestyle="--")  # vertical line
+axes[2][1].axvline(x=1.47, color="blue", linestyle="--")  # vertical line
 fold_lc.scatter(ax=axes[2][1], c='k')
 
 
-plt.savefig('Exoplanet_KIC-4282872.png')
+plt.savefig('Exoplanet_KIC-8191672.png')
 plt.show()
 
 #---  End of code  ---
