@@ -11,7 +11,7 @@ from lightkurve import search_targetpixelfile
 fig, axes = plt.subplots(3, 2, figsize=(12,9), constrained_layout=True)
 
 #-- Download target pixel file
-stardes = 'KIC 6358676'   # Kepler-818 b , quarter=8
+stardes = 'KIC 757450'   # Kepler-818 b , quarter=8
 tpf = search_targetpixelfile(stardes, author='Kepler', quarter=8).download()
 
 #-- print some information from header
@@ -43,7 +43,7 @@ flat_lc.plot(ax=axes[1][0], c='k')
 #-------------------------------------------
 #--  Periodogram
 #-------------------------------------------
-pg = flat_lc.to_periodogram(method='bls', period=np.arange(10, 30, 0.001))
+pg = flat_lc.to_periodogram(method='bls', period=np.arange(2, 20, 0.001))
 pg.plot(ax=axes[1][1], c='k')
 periodmax = pg.period_at_max_power  # find peak
 print('Best fit period: {:.5f}'.format(periodmax))
@@ -60,13 +60,14 @@ fold_lc.scatter(ax=axes[2][0], c='k')
 axes[2][0].legend(loc='upper right')
 
 #-- Eclipse close-up
-axes[2][1].axis([1, 3, 0.995, 1.003])
+axes[2][1].axis([3.15, 3.35, 0.98, 1.01])
 axes[2][1].xaxis.set_minor_locator(MultipleLocator(0.01))
 axes[2][1].tick_params(which='both', axis='both',       # ticks inside box
                     direction='in', top=True, right=True)
-# axes[2][1].axhline(y=0.9974, color="blue", linestyle="--")  # vertical line
-# axes[2][1].axvline(x=4.16, color="blue", linestyle="--")  # vertical line
-# axes[2][1].axvline(x=4.29, color="blue", linestyle="--")  # vertical line
+axes[2][1].axhline(y=0.9825, color="blue", linestyle="--")  # vertical line
+axes[2][1].axhline(y=1.0005, color="blue", linestyle="--")  # vertical line
+axes[2][1].axvline(x=3.2, color="blue", linestyle="--")  # vertical line
+axes[2][1].axvline(x=3.3, color="blue", linestyle="--")  # vertical line
 fold_lc.scatter(ax=axes[2][1], c='k')
 
 

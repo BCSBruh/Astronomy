@@ -66,6 +66,7 @@ axes[2][1].xaxis.set_minor_locator(MultipleLocator(0.01))
 axes[2][1].tick_params(which='both', axis='both',       # ticks inside box
                     direction='in', top=True, right=True)
 axes[2][1].axhline(y=0.9955, color="blue", linestyle="--")  # vertical line
+axes[2][1].axhline(y=1.0005, color="blue", linestyle="--")  # vertical line
 axes[2][1].axvline(x=1.33, color="blue", linestyle="--")  # vertical line
 axes[2][1].axvline(x=1.47, color="blue", linestyle="--")  # vertical line
 fold_lc.scatter(ax=axes[2][1], c='k')

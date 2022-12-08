@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a0ae0b-6973-450d-aebd-9d81fe626229" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exoplanet_KIC-6358676.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exoplanet_KIC-8191672.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kic_6358676.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kic_8191672.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-ExoplanetTransits.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-ExoplanetTransits.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex13-ExoplanetParameters.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gettingEx13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$-ExoplanetTransits.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Project 6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project 6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exoplanet_KIC-4282872.png" beforeDir="false" afterPath="$PROJECT_DIR$/Exoplanet_KIC-4282872.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exoplanets_students.py" beforeDir="false" afterPath="$PROJECT_DIR$/exoplanets_students.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exoplanet_KIC-6358676.png" beforeDir="false" afterPath="$PROJECT_DIR$/Exoplanet_KIC-6358676.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exoplanet_KIC-8191672.png" beforeDir="false" afterPath="$PROJECT_DIR$/Exoplanet_KIC-8191672.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kic_6358676.py" beforeDir="false" afterPath="$PROJECT_DIR$/kic_6358676.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kic_8191672.py" beforeDir="false" afterPath="$PROJECT_DIR$/kic_8191672.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.kic_6358676">
+  <component name="RunManager" selected="Python.gettingEx13">
     <configuration name="exoplanets_students" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project 6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +74,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exoplanets_students.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gettingEx13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project 6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gettingEx13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gettingEx13" />
         <item itemvalue="Python.kic_6358676" />
         <item itemvalue="Python.kic_8191672" />
         <item itemvalue="Python.exoplanets_students" />
@@ -166,6 +191,7 @@
       <workItem from="1668632550138" duration="3298000" />
       <workItem from="1668636445993" duration="306000" />
       <workItem from="1669651750124" duration="2545000" />
+      <workItem from="1669842006728" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="Put in more advanced methods">
       <created>1668636225808</created>
@@ -197,9 +223,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Project_6$exoplanets_students.coverage" NAME="exoplanets_students Coverage Results" MODIFIED="1669651828910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Project_6$kic_6358676.coverage" NAME="kic_6358676 Coverage Results" MODIFIED="1669654266793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Project_6$kic_8191672.coverage" NAME="kic_8191672 Coverage Results" MODIFIED="1669653804860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_6$exoplanets_students.coverage" NAME="exoplanets_students Coverage Results" MODIFIED="1669669158800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_6$kic_6358676.coverage" NAME="kic_6358676 Coverage Results" MODIFIED="1669673057868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_6$kic_8191672.coverage" NAME="kic_8191672 Coverage Results" MODIFIED="1669672318598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_6$gettingEx13.coverage" NAME="gettingEx13 Coverage Results" MODIFIED="1669845062964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_6$main.coverage" NAME="main Coverage Results" MODIFIED="1668635806347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
